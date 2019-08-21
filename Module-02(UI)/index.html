@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- module -01 -->
+    <!-- <button class="btnp1">play</button> 
+    <button class="btnp2">play</button> -->
+    <!-- <div class="player-score">
+        <div class="p1-score">p1<br></div>
+        <div class="p2-score">p2<br></div>
+    </div> -->
+    <!-- module2 -->
+    <div class="game clearfix">
+        <div class="row1">
+            <div class="row player1">
+                <div class="zone">
+                    <div class="start s1">
+                        <div class="pr">
+                            <div class="p s-pos"><i class="icon-1 fa fa-map-marker fa-3x"></i></div>
+                            <div class="p s-pos"><i class="icon-1 fa fa-map-marker fa-3x"></i></div>
+                        </div>
+                        <div class="pr">
+                            <div class="p s-pos"><i class="icon-1 fa fa-map-marker fa-3x"></i></div>
+                            <div class="p s-pos"><i class="icon-1 fa fa-map-marker fa-3x"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row path">
+                <div style="display:inline-block">
+                    <div class="block"></div>
+                    <div class="block "></div>
+                    <div class="block safe"></div>
+                    <div class="block "></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>    
+                <div style="display:inline-block">
+                    <div class="block"></div>
+                    <div class="block color-3"></div>
+                    <div class="block color-3"></div>
+                    <div class="block color-3"></div>
+                    <div class="block color-3"></div>
+                    <div class="block color-3"></div>
+                </div> 
+                <div style="display:inline-block">
+                    <div class="block"></div>
+                    <div class="block color-3"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>  
+            </div>
+            <div class="row player3">
+                <div class="zone">
+                    <div class="start s3">
+                        <div class="pr">
+                            <div class="p s-pos"><i class="icon-3 fa fa-map-marker fa-3x"></i></div>
+                            <div class="p s-pos"><i class="icon-3 fa fa-map-marker fa-3x"></i></div>
+                        </div>
+                        <div class="pr">
+                            <div class="p s-pos"><i class="icon-3 fa fa-map-marker fa-3x"></i></div>
+                            <div class="p s-pos"><i class="icon-3 fa fa-map-marker fa-3x"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="row-2 path1">
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block"></div> 
+                    <div class="block"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block color-1"></div> 
+                    <div class="block color-1"></div> 
+                    <div class="block "></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block color-1"></div> 
+                    <div class="block safe"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block color-1"></div> 
+                    <div class="block"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block color-1"></div> 
+                    <div class="block"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block color-1"></div> 
+                    <div class="block"></div>
+                </div> 
+            </div>
+            <div class="row-2 finish">
+                <div>
+                    <div class="triangle-left"></div>
+                </div>
+            </div>
+            <div class="row-2 path1">
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block color-2"></div> 
+                    <div class="block"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block color-2"></div> 
+                    <div class="block"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block color-2"></div> 
+                    <div class="block"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block safe"></div> 
+                    <div class="block color-2"></div> 
+                    <div class="block"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block color-2"></div> 
+                    <div class="block color-2"></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block"></div> 
+                    <div class="block"></div> 
+                    <div class="block"></div>
+                </div> 
+            </div>
+        </div>
+        <div class="row3">
+            <div class="row player4">
+                <div class="zone">
+                    <div class="start s4">
+                        <div class="pr">
+                            <div class="p s-pos"><i class="icon-4 fa fa-map-marker fa-3x"></i></div>
+                            <div class="p s-pos"><i class="icon-4 fa fa-map-marker fa-3x"></i></div>
+                        </div>
+                        <div class="pr">
+                            <div class="p s-pos"><i class="icon-4 fa fa-map-marker fa-3x"></i></div>
+                            <div class="p s-pos"><i class="icon-4 fa fa-map-marker fa-3x"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row path">
+                <div style="display:inline-block">
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block color-4"></div>
+                    <div class="block"></div>
+                </div>    
+                <div style="display:inline-block">
+                    <div class="block color-4"></div>
+                    <div class="block color-4"></div>
+                    <div class="block color-4"></div>
+                    <div class="block color-4"></div>
+                    <div class="block color-4"></div>
+                    <div class="block"></div>
+                </div> 
+                <div style="display:inline-block">
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block safe"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
+            </div>
+            <div class="row player2">
+                <div class="zone">
+                    <div class="start s2">
+                        <div class="pr">
+                            <div class="p s-pos"><i class="icon-2 fa fa-map-marker fa-3x"></i></div>
+                            <div class="p s-pos"><i class="icon-2 fa fa-map-marker fa-3x"></i></div>
+                        </div>
+                        <div class="pr">
+                            <div class="p s-pos"><i class="icon-2 fa fa-map-marker fa-3x"></i></div>
+                            <div class="p s-pos"><i class="icon-2 fa fa-map-marker fa-3x"></i></div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

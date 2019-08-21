@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- module -01 -->
+    <div class="dice"> 
+        <div class="player-score1">
+            <button class="btn btnp1">player 1</button>
+        </div>
+        <div class="result result-player1 safe-zone" red = 56 violet = 56></div>
+        <div class="player-score2">
+            <button class="btn btnp2">player 2</button>
+        </div>
+        <div class="player-score3">
+            <button class="btn btnp3">player 3</button>
+        </div>
+        <div class="result result-player2 safe-zone" green = 56 yellow = 56></div>
+        <div class="player-score4">
+            <button class="btn btnp4">player 4</button>
+        </div>
+    </div>    
+    <!-- module2 -->
+    <div class="game clearfix">
+        <div class="row1">
+            <div class="row player1">
+                <div class="zone">
+                    <div class="start s1">
+                        <div class="pr">
+                            <div class="s-pos red-start" id = "r-01"><i class="red-team r-11 icon-1 fa fa-map-marker fa-3x" originated = "r-01"></i></div>
+                            <div class="s-pos red-start" id = "r-02"><i class="red-team r-12 icon-1 fa fa-map-marker fa-3x" originated = "r-02"></i></div>
+                        </div>
+                        <div class="pr">
+                            <div class="s-pos red-start" id = "r-03"><i class="red-team r-13 icon-1 fa fa-map-marker fa-3x" originated = "r-03"></i></div>
+                            <div class="s-pos red-start" id = "r-04"><i class="red-team r-14 icon-1 fa fa-map-marker fa-3x" originated = "r-04"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row path">
+                <div style="display:inline-block">
+                    <div class="block" yellow = 49 violet = 23 green = 36 red = 10></div>
+                    <div class="block" yellow = 48 violet = 22 green = 35 red = 9></div>
+                    <div class="block safe safe-zone" yellow = 47 violet = 21 green = 34 red = 8></div>
+                    <div class="block" yellow = 46 violet = 20 green = 33 red = 7></div>
+                    <div class="block" yellow = 45 violet = 19 green = 32 red = 6></div>
+                    <div class="block" yellow = 44 violet = 18 green = 31 red = 5></div>
+                </div>    
+                <div style="display:inline-block">
+                    <div class="block" yellow = 50 violet = 24 green = 37  red = 11></div>
+                    <div class="block color-3" yellow = 51></div>
+                    <div class="block color-3" yellow = 52></div>
+                    <div class="block color-3" yellow = 53></div>
+                    <div class="block color-3" yellow = 54></div>
+                    <div class="block color-3" yellow = 55></div>
+                </div> 
+                <div style="display:inline-block">
+                    <div class="block" violet = 25  green = 38 red = 12></div>
+                    <div class="block  color-3 safe-zone" yellow = 0 violet = 26 green = 39 red = 13></div>
+                    <div class="block" yellow = 1  violet = 27 green = 40 red = 14></div>
+                    <div class="block" yellow = 2 violet = 28 green = 41 red = 15></div>
+                    <div class="block" yellow = 3 violet = 29 green = 42 red = 16></div>
+                    <div class="block" yellow = 4 violet = 30 green = 43 red = 17></div>
+                </div>  
+            </div>
+            <div class="row player3">
+                <div class="zone">
+                    <div class="start s3">
+                        <div class="pr">
+                            <div class="s-pos yellow-start" id = y-01><i class="yellow-team y-11 icon-3 fa fa-map-marker fa-3x" originated = "y-01"></i></div>
+                            <div class="s-pos yellow-start" id = y-02><i class="yellow-team y-12 icon-3 fa fa-map-marker fa-3x" originated = "y-02"></i></div>
+                        </div>
+                        <div class="pr">
+                            <div class="s-pos yellow-start" id = y-03 ><i class="yellow-team y-13 icon-3 fa fa-map-marker fa-3x" originated = "y-03"></i></div>
+                            <div class="s-pos yellow-start" id = y-04><i class="yellow-team y-14 icon-3 fa fa-map-marker fa-3x" originated = "y-04"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="row-2 path1">
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 38  violet = 12 green = 25></div> 
+                    <div class="block" yellow = 37 violet = 11 green = 24 red = 50></div> 
+                    <div class="block" yellow = 36 violet = 10 green = 23 red = 49></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block color-1 safe-zone" yellow = 39 violet = 13 green = 26 red = 0></div> 
+                    <div class="block color-1" red = 51></div> 
+                    <div class="block" yellow = 35 violet = 9 green = 22 red = 48></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 40 violet = 14 green = 27 red = 1></div> 
+                    <div class="block color-1" red = 52></div> 
+                    <div class="block safe safe-zone" yellow = 34 violet = 8 green = 21 red = 47></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 41 violet = 15 green = 28 red = 2></div> 
+                    <div class="block color-1"  red = 53></div> 
+                    <div class="block" yellow = 33 violet = 7 green = 20 red = 46></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 42 violet = 16 green = 29 red = 3></div> 
+                    <div class="block color-1" red = 54></div> 
+                    <div class="block" yellow = 32 violet = 6 green = 19 red = 45></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 43 violet = 17 green = 30 red = 4></div> 
+                    <div class="block color-1" red = 55></div> 
+                    <div class="block" yellow = 31 violet = 5 green = 18 red = 44></div>
+                </div> 
+            </div>
+            <div class="row-2 finish">
+                <div>
+                    <div class="triangle-left"></div>
+                </div>
+            </div>
+            <div class="row-2 path1">
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 5 violet = 31 green = 44 red = 18></div> 
+                    <div class="block color-2" green = 55></div> 
+                    <div class="block" yellow = 17 violet = 43 green = 4 red = 30></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 6 violet = 32 green = 45 red = 19></div> 
+                    <div class="block color-2" green = 54></div> 
+                    <div class="block" yellow = 16 violet = 42 green = 3 red = 29></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 7 violet = 33 green = 46 red = 20></div> 
+                    <div class="block color-2" green = 53></div> 
+                    <div class="block" yellow = 15 violet = 41 green = 2 red = 28></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block safe safe-zone" yellow = 8 violet = 34 green = 47 red = 21></div> 
+                    <div class="block color-2" green = 52></div> 
+                    <div class="block" yellow = 14 violet = 40 green = 1 red = 27></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 9 violet = 35 green = 48 red = 22></div> 
+                    <div class="block color-2" green = 51></div> 
+                    <div class="block color-2 safe-zone" yellow = 13 violet = 39 green = 0 red = 26></div>
+                </div>
+                <div class="col-1" style="float:left;">
+                    <div class="block" yellow = 10 violet = 36 green = 49 red = 23></div> 
+                    <div class="block" yellow = 11 violet = 37 green = 50 red = 24></div> 
+                    <div class="block" yellow = 12 violet = 38 red = 25></div>
+                </div> 
+            </div>
+        </div>
+        <div class="row3">
+            <div class="row player4">
+                <div class="zone">
+                    <div class="start s4">
+                        <div class="pr">
+                            <div class="p s-pos violet-start" id = "v-01"><i class="violet-team v-11 icon-4 fa fa-map-marker fa-3x" originated = "v-01"></i></div>
+                            <div class="p s-pos violet-start" id = "v-02"><i class="violet-team v-12 icon-4 fa fa-map-marker fa-3x" originated = "v-02"></i></div>
+                        </div>
+                        <div class="pr">
+                            <div class="p s-pos violet-start" id = "v-03"><i class="violet-team v-13 icon-4 fa fa-map-marker fa-3x" originated = "v-03"></i></div>
+                            <div class="p s-pos violet-start" id = "v-04"><i class="violet-team v-14 icon-4 fa fa-map-marker fa-3x" originated = "v-04"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row path">
+                <div style="display:inline-block">
+                    <div class="block" yellow = 30 violet = 4 green = 17 red = 43></div>
+                    <div class="block" yellow = 29 violet = 3 green = 16 red = 42></div>
+                    <div class="block" yellow = 28 violet = 2 green = 15 red = 41></div>
+                    <div class="block" yellow = 27 violet = 1 green = 14 red = 40></div>
+                    <div class="block color-4 safe-zone" yellow = 26 violet = 0 green = 13 red = 39></div>
+                    <div class="block" yellow = 25 green = 12 red = 38></div>
+                </div>    
+                <div style="display:inline-block">
+                    <div class="block color-4" violet = 55></div>
+                    <div class="block color-4" violet = 54></div>
+                    <div class="block color-4" violet = 53></div>
+                    <div class="block color-4" violet = 52></div>
+                    <div class="block color-4" violet = 51></div>
+                    <div class="block" yellow = 24 violet = 50 green = 11   red = 37></div>
+                </div> 
+                <div style="display:inline-block">
+                    <div class="block" yellow = 18 violet = 44 green = 5 red = 31></div>
+                    <div class="block" yellow = 19 violet = 45 green = 6 red = 32></div>
+                    <div class="block" yellow = 20 violet = 46 green = 7 red = 33></div>
+                    <div class="block safe safe-zone" yellow = 21 violet = 47 green = 8 red = 34></div>
+                    <div class="block" yellow = 22 violet = 48 green = 9 red = 35></div>
+                    <div class="block" yellow = 23 violet = 49 green = 10 red = 36></div>
+                </div>
+            </div>
+            <div class="row player2">
+                <div class="zone">
+                    <div class="start s2">
+                        <div class="pr">
+                            <div class="p s-pos green-start" id = "g-01"><i class="g-11 green-team icon-2 fa fa-map-marker fa-3x" originated = "g-01"></i></div>
+                            <div class="p s-pos green-start" id = "g-02"><i class="g-12 green-team icon-2 fa fa-map-marker fa-3x" originated = "g-02"></i></div>
+                        </div>
+                        <div class="pr">
+                            <div class="p s-pos green-start" id = "g-03"><i class="g-13 green-team icon-2 fa fa-map-marker fa-3x" originated = "g-03"></i></div>
+                            <div class="p s-pos green-start" id = "g-04"><i class="g-14 green-team icon-2 fa fa-map-marker fa-3x" originated = "g-04"></i></div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

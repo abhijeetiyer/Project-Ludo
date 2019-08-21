@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+body{padding:20px;background-color:#ccc;}
+.game{
+ 
+    width:60%;
+    margin:0px auto;
+    border-radius:20px;
+    background-color:#fff;
+    box-shadow:5px#BBB;
+}
+.row1{
+    width:100%;
+}
+.row{
+    float:left;
+    width:30.3%;
+    height:370px;
+}
+.player1{
+    width:40%;
+    background-color:#E85A47;
+    border-radius:20px 0px 0px ;
+}
+.path{
+    width:20%;
+    background:#fff;
+    
+}
+.player3{
+    width:40%;
+    background-color:#F3D250;
+    border-radius:0px 20px 0px 0px;
+}
+.row2{
+    width:100%;
+}
+.row-2{
+    float:left;
+    height:200px;
+}
+.path1{
+    width:40%;
+}
+.finish{
+    width:20%;
+    background-color: gray;
+}
+
+.row3{
+    width:100%;
+}
+.block{
+    width:67px;
+    height:57.8px;
+    border:2px solid #000;
+}
+.player4{
+    width:40%;
+    background-color:#3B8BEB;
+    border-radius:0px 0px 0px 20px;
+}
+.player2{
+    width:40%;
+    background-color:#479761;
+    border-radius:0px 0px 20px 0px;
+}
+.zone{
+    padding:50px;
+    padding-left:90px;
+   
+    
+}
+.start{
+    width:250px;
+    height:250px;
+    border-radius:20px;
+    
+
+}
+
+.color-3{
+    background-color:#F3D250;
+}
+.col-1 > .block{
+    width:70.5px;
+    height:63px;
+}
+.color-4{
+    background-color:#3B8BEB;
+}
+.color-1{
+    background-color:#E85A47;
+}
+
+.color-2{
+    background-color:#479761;
+}
+.safe{
+    background-color:#BBB;
+}
+.start{
+    padding:10px;
+}
+.p{
+    width:70px;
+    height:70px;
+    border:2px solid #fff;
+    border-radius:20px;
+    margin-top:20px;
+   
+}
+.pr{
+    padding:25px;
+    float:left;
+}
+
+.triangle-left{
+    width:0;
+    height:0;
+    border-top:100px solid #F3D250;
+    border-left:111px solid #E85A47;
+    border-bottom:100px solid #3B8BEB;
+    border-right:111px solid #479761;
+}
+
+.icon-1{
+    text-align:center;
+    padding:10px;
+    color:rgb(194, 41, 44);
+   
+}
+.icon-2{
+    text-align:center;
+    padding:10px;
+    color:#00887A;
+}
+.icon-3{
+    text-align:center;
+    padding:10px;
+    color:#FCE181;
+}
+.icon-4{
+    text-align:center;
+    padding:10px;
+    color:#77A6F7;
+}
+.s1{
+    background-color:rgb(194, 41, 44);
+}
+.s2{
+    background-color:#00887A;
+}
+.s3{
+    background-color:#FCE181;
+}
+.s4{
+    background:#77A6F7;
+}
+.s-pos{
+background-color:#fff;
+}

@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+body
+{
+    padding:20px;
+    background-color:#3AAFA9;
+}
+.game{
+ 
+    width:60%;
+    margin:0px auto;
+    border-radius:5px;
+    background-color:#fff;
+    
+}
+.row1{
+    width:100%;
+}
+.row{
+    float:left;
+    width:35%;
+    height:371px;
+}
+.player1{
+    width:40%;
+    background-color:#E85A47;
+    border-radius:5px 0px 0px 0px;
+    box-shadow:0px 1px 3px 2px #000;
+}
+.path{
+    width:20%;
+    background:#fff;
+    
+}
+.player3{
+    width:40%;
+    background-color:#F3D250;
+    border-radius:0px 5px 0px 0px;
+    box-shadow:0px 1px 2px 2px #000;
+    
+}
+.row2{
+    width:100%;
+}
+.row-2{
+    float:left;
+    height:195px;
+}
+
+.path1{
+    width:40%;
+}
+.finish{
+    width:20%;
+    background-color: gray;
+    box-shadow:0px 1px 3px 2px #000;
+}
+
+.row3{
+    width:100%;
+}
+.block{
+    width:69.5px;
+    height:60px;
+    border:1px solid #000;
+    display:block;
+    position:relative;
+    overflow:hidden;
+}
+.player4{
+    width:40%;
+    background-color:#33266E;
+    border-radius:0px 0px 0px 5px;
+    box-shadow:0px 1px 2px 3px #000;
+
+}
+.player2{
+    width:40%;
+    background-color:#32854c;
+    border-radius:0px 0px 5px 0px;
+    box-shadow:0px 1px 2px 2px #000;
+
+}
+.zone{
+    padding:50px;
+    padding-left:90px;
+   
+    
+}
+.start{
+    width:250px;
+    height:250px;
+    border-radius:20px;
+    
+
+}
+
+.color-3{
+    background-color:#F3D250;
+    box-shadow:3px 2px 2px 0px #000;
+
+}
+.col-1 > .block{
+    width:70.5px;
+    height:63px;
+}
+.color-4{
+    background-color:rgb(98, 93, 163);
+    box-shadow:3px 2px 2px 0px #000;
+
+}
+.color-1{
+    background-color:#E85A47;
+    box-shadow:3px 2px 2px 0px #000;
+
+}
+
+.color-2{
+    background-color:#32854c;
+    box-shadow:3px 2px 2px 0px #000;
+    
+}
+.safe{
+    background-color:rgb(170, 170, 170);
+}
+.start{
+    padding:10px;
+}
+.p{
+    width:70px;
+    height:70px;
+    border:2px solid #fff;
+    border-radius:20px;
+    margin-top:20px;  
+}
+.pr{
+    padding:25px;
+    float:left;
+}
+
+.triangle-left{
+    width:0;
+    height:0;
+    border-top:100px solid rgb(230, 188, 20);
+    border-left:111px solid #E85A47;
+    border-bottom:100px solid #33266E;
+    border-right:111px solid rgb(50, 114, 69);
+}
+
+.icon-1{
+    text-align:center;
+    padding:10px;
+    color:rgb(194, 41, 44);
+   
+}
+.icon-2{
+    text-align:center;
+    padding:10px;
+    color:rgb(50, 114, 69);
+}
+.icon-3{
+    text-align:center;
+    padding:10px;
+    color:rgb(228, 186, 18);
+}
+.icon-4{
+    text-align:center;
+    padding:10px;
+    color:rgb(21, 14, 122);
+}
+.s1{
+    background-color:rgb(194, 41, 44);
+}
+.s2{
+    background-color:rgb(50, 114, 69);
+}
+.s3{
+    background-color:rgb(238, 193, 31);
+}
+.s4{
+    background:rgb(98, 93, 163);
+}
+.s-pos{
+    width:70px;
+    height:70px;
+    border:2px solid #fff;
+    border-radius:20px;
+    margin-top:20px;
+    background-color:#fff;
+}
+.btn{
+    border:none;
+    background:transparent;
+    width:200px;
+    height:200px;
+    border-radius:50px;
+    padding:20px;
+    font-size:50px;
+    display:inline-block;
+    border:10px dashed #FEFFFF;
+    color:#000;
+}
+.btn[disabled]{
+    opacity:0.6;
+}
+.player-score1{
+    position:absolute;
+    top:10%;
+    left:7%;
+}
+.player-score2{
+    position:absolute;
+    top:70%;
+    left:80%;
+    padding:20px;
+}
+.highlight{
+    color:black;
+}
+.fa{
+    width:20%;
+    height:25%;
+    font-size:2px;
+    float:left;
+}
+.small{
+    padding-top:0px;
+    padding:0;
+    top:1px;
+    
+    /* display:inline-block; */
+
+}
+.result{
+    position:absolute;
+    top:40%;
+    left:5%;
+    height:200px;
+    width:200px;
+    border:2px solid #fffffF;
+}
+.result-player2{
+    top:45%;
+    left:82%;
+}
+.col-1 > .block{
+    width:72.5px;
+}
+.btnp1{
+    position:absolute;
+    top:30%;
+}
+.btnp2{
+    position:absolute;
+    top:60%;
+    left:83%;
+}
+.btnp3{
+    position:absolute;
+    top:10%;
+    left:83%;
+}
+.btnp4{
+    position:absolute;
+    top:72%;
+    left:6%;
+}
